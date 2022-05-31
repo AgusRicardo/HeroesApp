@@ -35,7 +35,7 @@ export const LoginScreen = () => {
     })
   }
   return (
-    <div className='container mt-5'>
+    <div className='container mt-5 cont-login'>
       <form action="" onSubmit={handleLogin} className='lgS_form-container bg-dark'>
         <h1>Login</h1>
         <div className="lgS__form-input">
